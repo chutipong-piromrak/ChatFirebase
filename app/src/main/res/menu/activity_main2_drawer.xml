@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_friends"-->
+            <!--android:icon="@mipmap/ic_person_black_24dp"-->
+            <!--android:title="Friends"/>-->
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@mipmap/ic_group_black_24dp"
+            android:title="Users" />
+        <!--<item-->
+            <!--android:id="@+id/nav_global_room"-->
+            <!--android:icon="@mipmap/ic_public_black_24dp"-->
+            <!--android:title="Public Room" />-->
+
+    </group>
+
+    <item android:title="My Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@mipmap/ic_account_box_black_24dp"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_input_black_24dp"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_del_account"
+                android:icon="@mipmap/ic_delete_sweep_black_24dp"
+                android:title="Delete Account" />
+        </menu>
+    </item>
+
+</menu>
